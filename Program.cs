@@ -23,16 +23,7 @@ namespace TestingCode_1
                 CreateGif(new Bitmap(imagePaths[i]));
             }
 
-
-
-
-
-
-
-
         }
-
-
 
         static void CreateGif(Bitmap image1)
         {
