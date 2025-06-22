@@ -18,7 +18,7 @@ namespace TestingCode_1
         static void Main(string[] args)
         {
             //CreateGif(new Bitmap("Cole_Thomas_The_Course_of_Empire_Desolation_1836.jpg"));
-            for (int i = 1; i < imagePaths.Length; i++)
+            for (int i = 0; i < imagePaths.Length; i++)
             {
                 CreateGif(new Bitmap(imagePaths[i]));
             }
